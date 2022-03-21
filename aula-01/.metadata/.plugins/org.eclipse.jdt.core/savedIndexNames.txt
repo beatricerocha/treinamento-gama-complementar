@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\Users\Ricardo Alexandre\OneDrive\Área de Trabalho\workspace_revisao\.metadata\.plugins\org.eclipse.jdt.core
+4106907912.index
+3414103158.index
+4007637727.index
+3199926850.index
+1865797976.index
+3669600106.index
+3052367510.index
+3087015968.index
+2127724775.index
+302741284.index
+577426927.index
+3645561035.index
+4063892581.index
+1433703396.index
+3435110540.index
+2465212962.index
+4007324618.index
+2282566798.index
+551088099.index

@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class ExecutaLista {
+
+	public static void main(String[] args) {
+	
+		//Criando um array simples 
+		
+		ArrayList contatos = new ArrayList();
+
+		contatos.add("Ricardo");
+		contatos.add("Marcos");
+		contatos.add("Julio");
+		contatos.add("Oswaldo");
+		contatos.add("Luciana");
+		
+		for(Object nome:contatos) {
+			System.out.println(nome);
+		}
+	}
+}

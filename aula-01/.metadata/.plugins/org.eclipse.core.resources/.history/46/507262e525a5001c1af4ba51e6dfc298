@@ -1,0 +1,11 @@
+
+public class LacoRepeticao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Criando um laço de repetição com While
+		System.out.println("Laço de Repetição com While");
+	}
+
+}

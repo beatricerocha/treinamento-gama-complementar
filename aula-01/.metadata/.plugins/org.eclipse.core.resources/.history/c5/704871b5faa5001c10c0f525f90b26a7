@@ -1,0 +1,23 @@
+import java.io.File;
+
+public class LerArquivo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String mostra="";
+		String nomeArq="c:\\funcionarios.txt"; 
+		String linha="";
+		File arq = new File(nomeArq);
+		
+		// Uma análise para verificar se o arquivo existe
+		if(arq.exists()) {
+			mostra="Arquivo - "+arq+",aberto com sucesso";
+			// System.out.println(mostra);
+			//System.out.println("Arquivo - "+nomeArq+", aberto com sucesso");
+			mostra="Tamanho do Arquivo - "+Long.toString(arq.length())+"\n";
+			System.out.println(mostra);
+		}
+		
+	}
+
+}

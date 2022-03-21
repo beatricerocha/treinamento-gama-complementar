@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ExecutaCalculo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Criando as variáveis
+		int num1,num2,total;
+		
+		// Pegando as informações do teclado
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Entre com o Primeiro Valor:");
+		num1 = teclado.nextInt();
+		System.out.println("Entre com o Segundo Valor:");
+		num2 = teclado.nextInt();
+		
+		
+	}
+
+}

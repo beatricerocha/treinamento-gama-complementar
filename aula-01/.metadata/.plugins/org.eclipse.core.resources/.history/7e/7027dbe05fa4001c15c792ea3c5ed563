@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ApresentaNome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String nome;
+		System.out.println("Entre com o nome desejado:");
+		nome=teclado.next();
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class ChamaMetodo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Resposta texto = new Resposta();
+		texto.exibeResposta();
+	}
+
+}

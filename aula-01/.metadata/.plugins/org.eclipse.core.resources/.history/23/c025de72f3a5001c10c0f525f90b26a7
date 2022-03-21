@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class ExecutaCalculo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int opcao;
+        double num1, num2, total;
+
+        do{
+            System.out.println("====================");
+            System.out.println("OPÇõES DO MENU");
+            System.out.println("====================");
+            System.out.println("1 - ADIÇÃO");
+            System.out.println("2 - SUBTRAÇÃO");
+            System.out.println("3 - MULTIPLICAÇÃO");
+            System.out.println("4 - DIVISÃO");
+            System.out.println("5 - SAIR");
+            opcao = sc.nextInt();
+
+            switch(opcao) {
+                case 1:
+                    System.out.println("Digite o primeiro número: ");
+                    num1 = sc.nextDouble();
+                    System.out.println("Digite o segundo número: ");
+                    num2 = sc.nextDouble();
+                    total = num1 + num2;
+                    System.out.println("O Resultado de "+num1+" + "+num2+" = "+total);
+                    opcao=6;
+                    break;
+
+               
+                case 5:
+                    System.out.println("Sair");
+                    break;
+                    
+                default:
+                	System.out.println("Opção escolhida inválida");
+            }
+        }
+        while (opcao < 5 || opcao == 0 || opcao > 5);
+
+	}
+}

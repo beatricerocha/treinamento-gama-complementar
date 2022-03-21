@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ExecutaCadFunc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String nome;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Entre com o guri");
+		nome=teclado.next();
+		
+		
+		System.out.println(nome);
+	}
+
+}

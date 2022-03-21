@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class ExecutaCalculo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Criando as variáveis
+		int num1,num2,total;
+		
+		// Pegando as informações do teclado
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Entre com o Primeiro Valor:");
+		num1 = teclado.nextInt();
+		System.out.println("Entre com o Segundo Valor:");
+		num2 = teclado.nextInt();
+
+		int opcao=1;
+		do
+		{
+
+		System.out.println("Opções do Menu");
+		System.out.println("==============");
+		System.out.println("1 - Adição");
+		System.out.println("2 - Subtração");
+		System.out.println("3 - Divisão");
+		System.out.println("4 - Multiplicação");
+		System.out.println("5 - Sair");
+		
+		switch(opcao) {
+		case 1:
+			total=num1+num2;
+			System.out.println(num1+num2+"="+total);
+		}
+		
+		
+		}while(opcao <5 || opcao==0 || opcao>5);
+
+		
+	}
+
+}

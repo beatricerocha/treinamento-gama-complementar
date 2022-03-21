@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class ExecutaLista {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList contatos = new ArrayList();
+		
+		contatos.add("Ricardo");
+		contatos.add("Pedro");
+		contatos.add("Marcos");
+		contatos.add("Vania");
+		contatos.add("Igor");
+		
+		for (Object nome: contatos) {
+			System.out.println(nome);
+		}
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class GerarMatriz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Criando a variável da nossa matriz
+		String[] nomefuncionario;
+		
+		//Criando o nosso laço de repetição For
+		for (int contador=0; contador<10; contador++) {
+			System.out.println("Entre com o "+contador+ " º: ");
+			
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ApresentaNome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String nome,sobrenome;
+		int idade;
+		System.out.println("Entre com o nome desejado:");
+		nome=teclado.next();
+		System.out.println("Entre com a idade:");
+		idade=teclado.nextInt();
+		System.out.println("O nome da pessoa é :"+nome+" "+idade);
+
+	}
+
+}

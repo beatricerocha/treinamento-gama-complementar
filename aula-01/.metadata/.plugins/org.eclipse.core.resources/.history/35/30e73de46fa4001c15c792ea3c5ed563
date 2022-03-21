@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ObtendoTamanhoVariavel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String senha;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Entre com a senha");
+		senha = teclado.next();
+		// System.out.println("A quantidade de digitos da senha é "+senha.length());
+		if(senha.length()<=4) {
+			System.out.println("A senha é inválida, pois deve conter no mínimo 6 digitos");
+			
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+
+
+public class FormatoValor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double dval=20.2561;
+				System.out.println("Valor da Variavel"+dval);
+		
+		
+	}
+
+}

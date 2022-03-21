@@ -1,0 +1,8 @@
+
+public class ProcParametrosRecebido {
+
+	// criando um método dentro desta classe
+	public void mensagem (String nome, String email, int idade) {
+		System.out.println("o nome do funcionário é "+nome+", contem a idade, "+idade+ " e o email fornecido é "+email );
+	}
+}

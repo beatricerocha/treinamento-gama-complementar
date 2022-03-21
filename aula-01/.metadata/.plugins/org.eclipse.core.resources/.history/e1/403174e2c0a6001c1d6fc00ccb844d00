@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class ExecutaLista {
+
+	public static void main(String[] args) {
+
+		// Montando um Array List Simples
+		
+		ArrayList contatos = new ArrayList();
+		
+		contatos.add("Ricardo");
+		contatos.add("Pedro");
+		contatos.add("Marcos");
+		contatos.add("Ana");
+		contatos.add("Fabio");
+		contatos.add("Rosana");
+		contatos.add("Luan");
+		
+		for(Object nome:contatos) {
+			System.out.println(nome);
+		}
+
+	}
+}
